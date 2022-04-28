@@ -1,0 +1,15 @@
+body {
+    background-color: lightblue;
+}
+
+div {
+    width: 100%;
+}
+
+img {
+    height: 360px ;
+    width: 640px;
+    margin: auto;
+    display: block;
+    border: solid 10px rgb(68, 88, 76);
+}
