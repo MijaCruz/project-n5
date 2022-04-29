@@ -56,7 +56,7 @@ header{
   left: 0;
   bottom: 0;
   z-index: -1;
-  transition: transform 0.3s ease;
+  transition: transform 0.2s ease;
 }
 
 .logo:hover {
@@ -122,6 +122,7 @@ nav a{
   transform: translate(5px, 5px);
 }
 
+
 /*......................................CONTENT..................................*/
 hr {
   border: 1px solid #100623;
@@ -129,27 +130,86 @@ hr {
   list-style: none;
 }
 
-/*Imagen*/
-.main-image {
-  height: 360px ;
-  width: 640px;
-  margin: 30px 25%;
-  display: block;
-  border: solid 10px #100623;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  border-radius: 15px;
-}
-
-.texto{
+.title-color{
+  padding: 0px 15px 0px 15px;
   display: flex;
   justify-content: center;
   position: relative;
   overflow: hidden;
   font-family: sans-serif;
   font-size: 20px;
+  color: #100623;
   margin: 10px;
   font-weight: bold;
+}
+
+.aestethics{
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.part{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  font-size: 20px;
+  color: #100623;
+  font-weight: bold;
+}
+
+.order{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.button{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  border: 5px;
+  border-color: #903C7A;
+  background-color: #D8ACD0;
+  color: #562449;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.hey{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 25px;
+  background: #B89BB6;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.the{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  text-align: center;
+  color: #080311;
+  background: #EBD5E7;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-bottom: 15px;
 
 }

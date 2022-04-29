@@ -2,24 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"content="width-device-width, initial-scale=1.0">
+
     <title>Ejercicio Nº 02</title>
-    <script src="assets/js/aux_2.js"></script>
-
+    <link rel="stylesheet" type="text/css" href="assets/css/style_2.css"></link>
+    <script type="text/javascript" src="assets/js/aux_2.js"></script>
 </head>
+
 <body>
-    <div>
-        <a href="index.html">Pagina Principal</a>
-    </div>
+
+    <header>
+        <a href="index.html" class="logo">            
+            <img src="assets/image/home.png" href="index.html" alt="Home" width="47px">
+        </a>
+
+        <nav>
+            <a href="index_1.html" class="nav-link">EJERCICIO Nº 01</a>
+            <a href="index_3.html" class="nav-link">EJERCICIO Nº 03</a>
+            <a href="index_4.html" class="nav-link">EJERCICIO Nº 04</a>
+        </nav>
+
+    </header>
 
     <div>
-        <h4>Desarrolle un programa que al ingresar cuatro notas nos muestre el promedio</h4>
+        <hr>
+        <div class="title-color">DESARROLLE UN PROGRAMA PARA QUE AL INGRESAR CUATRO NOTAS NOS MUESTRE EL PROMEDIO</div>
+        <hr>
 
-        <li>
-            </br>
+        <div class="main">            
+            <div class="title-color">
+                <div>INGRESE LAS CUATRO NOTAS DE JUAN PEREZ:</div>
+            </div>
             
-        </li>
+            <div>
+                <ul>
+                    <li class="form">
+                        <input type="text" name="nota1" id="nota1" placeholder="Primera Nota" class="square"required>
+                    </li>
 
+                    <li class="form">
+                        <input type="text" name="nota2" id="nota2" placeholder="Segunda Nota" class="square"required>
+                    </li>
+
+                    <li class="form">
+                        <input type="text" name="nota3" id="nota3" placeholder="Tercera Nota" class="square"required>
+                    </li>
+
+                    <li class="form">
+                        <input type="text" name="nota4" id="nota4" placeholder="Cuarta Nota" class="square"required>
+                    </li>
+
+                    <li >
+                        <button onclick="obtenerPromedio()" class="men">EJECUTAR</button>
+                    </li>
+                    
+                </ul>
+                <span id="promedio" class="hello"></span>
+
+            </div>
+        </div>
     </div>
-    
 </body>
 </html>

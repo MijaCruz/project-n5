@@ -1,12 +1,13 @@
-tecs = prompt("Ingrese el Nombre del Alumno");
 
-n1 = parseInt(prompt("Ingrese la primera nota"));
-n2 = parseInt(prompt("Ingrese la segunda nota"));
-n3 = parseInt(prompt("Ingrese la tercera nota"));
-n4 = parseInt(prompt("Ingrese la cuarta nota"));
+function obtenerPromedio(){
+	n1 = document.getElementById('nota1').value;
+	n2 = document.getElementById('nota2').value;
+	n3 = document.getElementById('nota3').value;
+	n4 = document.getElementById('nota4').value;
 
-neim = tecs
-average = (n1+n2+n3+n4)/4
 
-document.write("El alumno " + neim + "</br>");
-document.write(" tiene como promedio Final la nota de " + average + " pts.");
+	average = (parseInt(n1) + parseInt(n2) + parseInt(n3) + parseInt(n4))/4;
+
+	console.log(average);
+	document.getElementById('promedio').innerHTML = "PROMEDIO: " + average;
+}

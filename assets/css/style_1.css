@@ -56,7 +56,7 @@ header{
   left: 0;
   bottom: 0;
   z-index: -1;
-  transition: transform 0.3s ease;
+  transition: transform 0.2s ease;
 }
 
 .logo:hover {
@@ -122,6 +122,7 @@ nav a{
   transform: translate(5px, 5px);
 }
 
+
 /*......................................CONTENT..................................*/
 hr {
   border: 1px solid #100623;
@@ -129,27 +130,32 @@ hr {
   list-style: none;
 }
 
-/*Imagen*/
-.main-image {
-  height: 360px ;
-  width: 640px;
-  margin: 30px 25%;
-  display: block;
-  border: solid 10px #100623;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  border-radius: 15px;
-}
-
-.texto{
+.title-color{
+  padding: 0px 15px 0px 15px;
   display: flex;
   justify-content: center;
   position: relative;
   overflow: hidden;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 17px;
+  color: #100623;
   margin: 10px;
   font-weight: bold;
+}
 
+
+.main-div{
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #100623;
+
+
+  margin: 10px;
+  margin-left: 45%;
+  align-items: flex-start;
+
+}
+.operation{
+  margin: 10px;
+  font-weight: bold;
 }

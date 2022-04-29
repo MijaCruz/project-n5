@@ -44,11 +44,3 @@ function processNumber(){
     document.getElementById('min').value = min;
 
 }
-
-
-
-
-
-
-
-

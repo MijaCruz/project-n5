@@ -1,141 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>    
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"content="width-device-width, initial-scale=1.0">
+
     <title>Ejercicio Nº 01</title>
-
+    <link rel="stylesheet" type="text/css" href="assets/css/style_1.css"></link>
 </head>
+
 <body>
-    <div>
-        <a href="index.html">Pagina Principal</a>
-    </div>
+
+    <header>
+        <a href="index.html" class="logo">            
+            <img src="assets/image/home.png" href="index.html" alt="Home" width="47px">
+        </a>
+
+        <nav>
+            <a href="index_2.html" class="nav-link">EJERCICIO Nº 02</a>
+            <a href="index_3.html" class="nav-link">EJERCICIO Nº 03</a>
+            <a href="index_4.html" class="nav-link">EJERCICIO Nº 04</a>
+        </nav>
+    </header>
     
     <div>
-        <h4>Desarrolle un programa que nos permita mostrar el resultado de las operaciones matematicas con los datos segun se detalla</h5>
+
+        <hr>
+        <div class="title-color"D>DESARROLLE UN PROGRAMA QUE NOS PERMITA MOSTRAR EL RESULTADO DE LAS OPERACIONES MATEMATICAS CON LOS DATOS SEGUN SE DETALLAN</div>
+        <hr>
         
-        <ol>
-        <li>2 + 2
-            </br>
-            <script>
-             
-                a1 = 2
-                b1 = 2
-                r1 = a1 + b1
+        <div class="main-div">
 
-                document.write("La suma anterior es " + r1);
-            
-            </script>
-        </li>
-</br>
-        <li> 344 / 34499
-            </br>
-            <script>
-
-                a2 = 344
-                b2 = 34499
-                r2 = a2 / b2
-
-                document.write("El resultado es: " + r2)
-
-            </script>
-        </li>
-</br>
-        <li> 500 % 7
-            </br>
-            <script>
-                a3 = 500
-                b3 = 7
-                r3 = a3 % b3
-                document.write("El resultado correspondiente es: " + r3);
-
-            </script>
-        </li>
-</br>
-        <li> 32 - 2
-            </br>
-            <script>
-                a4 = 32
-                b4 = 2
-                r4 = a4 - b4
-
-                document.write("El resultado correspondiente es: " + r4);
-                
-            </script>
-        </li>
-</br>
-        <li> 2 * 2 + 40
-            </br>
-            <script>
-                a5 = 2
-                b5 = 2
-                c5 = 40
-                r5 = (a5 * b5) + 40
-
-                document.write("El resultado correspondiente es: " + r5);
-
-            </script>
-         </li>
-</br>
-        <li> 2 * (2 + 40)
-            </br>
-            <script>
-                
-                a6 = 2
-                b6 = 2
-                c6 = 40
-                r6 = a6 * (b6 + c6) 
-
-                document.write("El resultado correspondiente es: " + r6);
-
-            </script>
-        </li>
-</br>
-        <li> 2 + 5 * 10
-            </br>
-            <script>
-                a7 = 2
-                b7 = 5
-                c7 = 10
-                r7 = a7 + (b7 * c7) 
-                
-                document.write("El resultado correspondiente es: " + r7);
-            
-            </script>
-        </li>
-</br>
-        <li> (2 + 5) * 10
-            </br>
-            <script>
-                a8 = 2
-                b8 = 5
-                c8 = 10
-                r8 = (a8 + b8) * c8
-                document.write("El resultado correspondiente es: " + r8);
-
-            </script>
-        </li>
-
-        </ol>
+            <div class="operation">a) 2 + 2
+                <div class="js">
+                    <script type="text/javascript">
+                        a1 = 2
+                        b1 = 2
+                        r1 = a1 + b1
+                        document.write("EL RESULTADO ES: " + r1);
+                    </script>
+                </div>
+            </div>
 
 
+            <div class="operation">b) 344 / 34499
+                <div class="js">
+                    <script type="text/javascript">
+                        a2 = 344
+                        b2 = 34499
+                        r2 = a2 / b2
+                        document.write("EL RESULTADO ES: " + r2)
+                    </script class="js">
+                </div>
+            </div>
+
+
+            <div class="operation">c) 500 % 7
+                <div class="js">
+                    <script type="text/javascript">
+                        a3 = 500
+                        b3 = 7
+                        r3 = a3 % b3
+                        document.write("EL RESULTADO ES: " + r3);
+                    </script> 
+                </div>
+            </div>
+
+
+            <div class="operation">d) 32 - 2
+                <div class="js">
+                    <script type="text/javascript">
+                        a4 = 32
+                        b4 = 2
+                        r4 = a4 - b4
+                        document.write("EL RESULTADO ES: " + r4);
+                    </script>
+                </div>
+            </div>
+
+
+            <div class="operation">e) 2 * 2 + 40
+                <div class="js">
+                    <script type="text/javascript">
+                        a5 = 2
+                        b5 = 2
+                        c5 = 40
+                        r5 = (a5 * b5) + 40
+                        document.write("EL RESULTADO ES: " + r5);
+                    </script>
+                </div>
+            </div>
+
+            <div class="operation">f) 2 * (2 + 40)
+                <div class="js">
+                    <script type="text/javascript">
+                        a6 = 2
+                        b6 = 2
+                        c6 = 40
+                        r6 = a6 * (b6 + c6) 
+                        document.write("EL RESULTADO ES: " + r6);
+                    </script>
+                </div>
+            </div>
+
+
+            <div class="operation">g) 2 + 5 * 10
+                <div class="js">
+                    <script type="text/javascript">
+                        a7 = 2
+                        b7 = 5
+                        c7 = 10
+                        r7 = a7 + (b7 * c7) 
+                        document.write("EL RESULTADO ES: " + r7);
+                    </script>
+                </div>
+            </div>
+
+            <div class="operation">h) (2 + 5) * 10
+                <div class="js">
+                    <script type="text/javascript">
+                        a8 = 2
+                        b8 = 5
+                        c8 = 10
+                        r8 = (a8 + b8) * c8
+                        document.write("EL RESULTADO ES: " + r8);
+                    </script>
+                </div>
+            </div>
+
+        </div>
 
     </div>
-
-
-
-</br>    
-</br>
-
     
-
-    
-
-
-
-
-
-
-
-
 </body>
 </html>
